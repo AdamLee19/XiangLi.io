@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="../css/css" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<title>Welcome to Lee's Web</title>
+</head>
+<body>
+	<main class="container">
+		<section class="about">
+			<img src="../images/portfolio.png" alt="Xiang Li">
+			<h2>Xiang Li  李翔</h2>
+			<p class="tagline" align = center> PhD Student
+				<br>Lead Teaching Assistant
+				<br>Clemson University
+				<br>Clemson, SC, USA
+			</p>
+			<ul class="social">
+				<a href="https://github.com/AdamLee19"><li><i class="icon-github-circled"></i></li></a>
+				<a href="https://www.linkedin.com/in/xiang-li-a2b85a124/"><li><i class="icon-linkedin-squared"></i></li></a>
+				<a href="mailto:xiang5@g.clemson.edu"><li><i class="icon-mail"></i></li></a>
+			</ul>
+			<p>© 2019</p>
+		</section>
+		<section class="content">
+			
+<ul class="posts">
+	<li>
+		<h1><a href="../index.html">Home</a></h1>
+		<h1><a href="../projects/projects.html">Projects</a></h1>
+		<h1><a href="../research/research.html">Research</a></h1>
+		<h1><a href="../teaching/teaching.html">Teaching</a></h1>
+	</li>
+
+	<li><a class="post-link" href="#">
+			<h2 class="post-title">CPSC 8190: Physically Based Effects</h2>
+		</a>
+		<div class="post-meta">
+			<ul class="post-categories"><li>Class Projects</li><li>Clemson University</li></ul>
+			<div class="post-date"><i class="icon-calendar"></i>Spring 2019</div>
+		</div>
+		<div class="post">
+			<p>The objectives of this class were learning and implementing common volumetric modeling and rendering algorithms. I mainly learned fields in theory,  deep shadow maps, Signed Distance Functions, level sets, pyroclastic spheres,  grids, Closest Point Transform,  Nearest Point Transform, and Advection schemes etc. <a href="https://people.cs.clemson.edu/~jtessen/">Prof. Jerry Tessendorf</a>. You can review the class content <a href="https://people.cs.clemson.edu/~jtessen/cpsc8190/index.html">here</a>.</p>
+			
+			<b><p align="center">* * *</p></b>
+
+					
+			<div class="row">
+				<a href="https://youtu.be/4uNpib6fr84" target="_blank"> <img src="./8190/human.png" alt="humanoid" class="right-img"></a>
+				<span class="span-right"> 
+					<p align="center"><b>Humanoid Avatar</b></p>
+
+					<p align="justify">
+						I used csg operations (union, intersection, cutout, and shell) and basic implicit shapes to create a figure that is humanoid which had two legs, two arms, and a head. Deep shadow maps is the ray marching algorithm I used. My humanoid was a standing god with Halo who stood on a turntable and held a bunny in a teapot. (frame resolution: 1920x1080, 120 frames, 360&#176)
+					</p>
+				</span>
+			</div>
+
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href=""> <img src="./8190/levelset.png" alt="levelset" class="left-img"></a>
+				
+				<span class="span-left"> 
+				
+					<p align="center"><b>Levelsets</b></p>
+
+					<p  align="justify" >
+						Level set is a special instance of a signed distance function with values on a grid. I implemented the basic level set algorithm to calculate the shortest distance from each grid point to an object on the grid. There are three short level set videos for three different objects which are bunny, teapot, and bunny in the teapot. Both of those level sets have three points lighting scheme. You can found those three videos here: <a href="https://youtu.be/ooKnxrNvFyQ" target="_blank">Bunny</a>, <a href="https://youtu.be/BbZrVXarpso" target="_blank">Teapot</a>, and <a href="https://youtu.be/S4PyrLRasXQ" target="_blank">Bunny in the teapot</a>.
+					</p>
+				</span>
+				
+			</div>
+
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href="#"> <img src="./8190/wedges.png" alt="wedges" class="right-img"></a>
+				<span class="span-right"> 
+					<p align="center"><b>Wedges</b></p>
+
+					<p align="justify">
+						I created three wedges which are Perlin noise wedge, Pyroclastic Sphere wedge, and Wisp wedge for this project. Each wedge is based on one guide particle, and each frame is a different setting of the indicated parameters(e.g. octaves, frequencies, frequency jumps).  Wisp wedge has 5 million wisp dots in each frame. The wedges are here: <a href="https://youtu.be/NN5IdAcY5hQ" target="_blank">Noise</a>, <a href="https://youtu.be/bfEBINmJwHI" target="_blank">Pyroclastic Sphere</a>, and <a href="https://youtu.be/s2K3gwCoVSM" target="_blank">Wisp</a>.
+					</p>
+
+				</span>
+			</div>
+
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href="#"> <img src="./8190/advect.png" alt="advection" class="left-img"></a>
+				<span class="span-left"> 
+					<p align="center"><b>Advected Refinement: Fluffy Bunny</b></p>
+
+					<p  align="justify" >
+						This time, the Stanford bunny is adveted. The project starts from pyroclastic displacement and then use characteristic maps as the advection scheme. The frames start with the bunny with no diplacement or advection, and then ramp to displacement magnitude and advection up to full value. The second video is about gridless advection just on the ears of the bunny. Videos: <a href="https://youtu.be/pWDirVUOTh4" target="_blank">Fluffy Bunny</a> and <a href="https://youtu.be/Z3i_xH4rtCQ" target="_blank">Ears Advected Bunny</a>.
+					</p> 
+				</span>
+			</div>
+
+
+
+			
+			
+			
+</div>
+	</li>
+
+
+	<hr>
+	<li><a class="post-link" href="#">
+			<h2 class="post-title">CPSC 8170: Physically Based Animation</h2>
+		</a>
+		<div class="post-meta">
+			<ul class="post-categories"><li>Class Projects</li><li>Clemson University</li></ul>
+			<div class="post-date"><i class="icon-calendar"></i>Fall 2018</div>
+		</div>
+		<div class="post">
+			<p>This class was mainly about physically-based modeling for animation and computer graphics. The objectives of this class is investigating Particle Systems, Flocking Systems, Flocking, Rigid Body Simulation, and Fluid Simulation. This class required us implemented those scenarios with the knowledge of Calculus, Physics, Linear Algebra, Numerical Methods, and Interactive Graphics. All the programs were written in C++ using OpenGL, GLM, and GLSL to do the graphics and interaction. The class lecturer was <a href="https://people.cs.clemson.edu/~dhouse/">Prof. Donald H. House</a>. You can review the class content <a href="https://people.cs.clemson.edu/~dhouse/courses/817/">here</a>.</p>
+			
+
+			<b><p align="center">* * *</p></b>		
+			<div class="row">
+				<a href="https://www.youtube.com/watch?v=se_Xgo5nEoc" target="_blank"> <img src="./8170/HW1.png" alt="Bouncing Ball" class="right-img"></a>
+				<span class="span-right"> 
+					<p align="center"><b>Bouncing Ball: Toy Story</b></p>
+
+					<p align="justify">
+						This is a fundamental project for physically based animation class. It contains a box with six sides, but some faces are culled based on view angle. The box is texture-mapped with "Toy Story" wall paper. There is a 3D spherical ball bouncing inside the box. The ball's speed is determined by wind and gravity. There is a triangle under the bottom of the box, and the ball is able to bounce with it as well. To interact with the simulator, user can change the wind speed, ball speed, fraction coefficient, wind coefficient etc. The whole scene is lighted by three point lighting setup.
+					</p>
+
+				</span>
+			</div>
+
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href="https://youtu.be/XzDqH-ROAYI" target="_blank"> <img src="./8170/HW2.png" alt="Fountain" class="left-img"></a>
+				<span class="span-left"> 
+					<p align="center"><b>Particles System: Fountain</b></p>
+
+					<p  align="justify" >
+						This project extend bouncing ball to a large-scale particle system simulation. The idea is using particles to represent a water fountain. Each particle ball is drawn with billboard technique. I activate the blend functions to blend the alpha channel so that all the particles look more waterish. The water fountain has 4 generators. Totally random generator, fountain generator, irrigation generator, and no generator. The water particles can be effected by wind and lights. The water also can be sucked into a vortex.
+					</p>
+				</span>
+			</div>
+
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href="https://youtu.be/CJa3-v1rptk" target="_blank"> <img src="./8170/HW3.png" alt="Flocking" class="right-img"></a>
+				<span class="span-right"> 
+					<p align="center"><b>Flocking: Finding Nemo</b></p>
+
+					<p align="justify">
+						It's time for exploring deep ocean! The main theme of this project is Finding Nemo. This project simulates the flocking system. There are thousands of fish in the scene. In order to optimize the running speed, I used OpenGL instance to draw a fish once and distribute fish object to each particle. The group of fish can steer by themselves to avoid spheres. Depending on modes set by user, the fish will circle around the sea, flee away, or school together.
+					</p>
+
+				</span>
+			</div>
+
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href="https://youtu.be/yg2pinnYqlw" target="_blank"> <img src="./8170/HW4.png" alt="panda" class="left-img"></a>
+				<span class="span-left"> 
+					<p align="center"><b>Springy Structures: Kung Fu Panda</b></p>
+
+					<p  align="justify" >
+						"Everybody was kung-fu fighting! Woo-ha!" Po follows the instructions of the master Shifu and studies so hard so that he can become a real "Dragon Warrior" earlier. Po is made from spring mesh structures. When the program is ran, Po will fall off until he hits the "floor", and then he will bounce back and forth. Once Paul settles down, user can turn on the flashing mode, Po will get "Qi" from the universe due to the "Yin" and "Yang". 
+					</p> 
+				</span>
+			</div>
+
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href="https://youtu.be/_I3M7N9hyPA" target="_blank"> <img src="./8170/HW5.png" alt="rigidbody" class="right-img"></a>
+				<span class="span-right"> 
+					<p align="center"><b>Rigid Body: Falling Brick</b></p>
+
+					<p align="justify">
+						The rigid body is a cuboid. When the program is ran, the cuboid will drop off due to the gravity and will bounce on the floor until it hits the resting position. The rigid body involves point to point, point to face, face to edge detection. The integration scheme that be used is Runga-Kutta fourth-order.
+					</p>
+				</span>
+			</div>
+
+			<br>
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href="https://youtu.be/uKmfhE__XAE" target="_blank"> <img src="./8170/Final.png" alt="Disney" class="left-img"></a>
+				<span class="span-left"> 
+					<p align="center"><b>Disney Theme clips</b></p>
+
+					<p  align="justify">
+						This was the final project for the class. I regenerated the Disney opening theme clips, however, the shot was guided by physical principles. The flag on the top castle was a spring system. The flag could be blown in wind. The fireworks were particle system, which appeared with random colors and at random positions. The Disney castle was painted in the substance painter. I also choreographed the camera movement so that it matched the original clips.
+					</p> 
+				</span>
+			</div>
+
+
+			
+		
+</div>
+	</li>
+
+	<hr>
+
+	<li><a class="post-link" href="#">
+			<h2 class="post-title">Other Class Projects</h2>
+		</a>
+		<div class="post-meta">
+			<ul class="post-categories"><li>Class Projects</li><li>Clemson University</li></ul>
+			<div class="post-date"><i class="icon-calendar"></i></div>
+		</div>
+		<div class="post">
+			Here are some of my other class projects.
+			
+			<b><p align="center">* * *</p></b>
+
+					
+			<div class="row">
+				<a href="https://youtu.be/DD6fK998nds" target="_blank"> <img src="./others/greedyteddy.png" alt="greedyteddy" class="right-img"></a>
+				<span class="span-right"> 
+					<p align="center"><b>Maya Modeling and Animation: Greedy Teddy</b></p>
+
+					<p align="justify">
+						This project is from DPA8070-3D Modeling class. The whole class is about modeling and animating a character with Maya. This is my first time to use Maya so the animation is primitive. However, I modelled the teddy bear from scrach, created the landscape, choreographed the camera cuts, and rendered the animation. The story of my project is Teddy is a greedy boy. He likes all food around world. He will put everything that he sees into his mouth and tastes its flavor! One day he sees a beehive, he thinks he can have a honey feast. But actually it’s full of poison.
+					</p>
+				</span>
+			</div>
+			<b><p align="center">* * *</p></b>
+			<div class="row">
+				<a href=""> <img src="./8190/levelset.png" alt="levelset" class="left-img"></a>
+				
+				<span class="span-left"> 
+				
+					<p align="center"><b>Maya Modeling and Animation</b></p>
+
+					<p  align="justify" >
+						This project is from DPA8070-3D Modeling class. The whole class is about modeling and animating a character with Maya. This is my first time to use Maya so the animation is primitive. However, I modelled the teddy bear from scrach, created the landscape, choreographed the camera cuts, and rendered the animation. The story of my project is Teddy is a greedy boy. He likes all food around world. He will put everything that he sees into his mouth and tastes its flavor! One day he sees a beehive, he thinks he can have a honey feast. But actually it’s full of poison.
+					</p>
+				</span>
+				
+			</div>
+
+
+	
+
+
+			
+			
+			
+</div>
+	</li>
+
+
+
+
+
+	
+
+
+
+
+</ul>
+
+
+ <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
+		<use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+	</svg><a href="/feed.xml">Subscribe</a></p> -->
+		</section>
+	</main><script async="" src="./js/js"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-127004425-1');
+	</script>
+
+</body></html>
