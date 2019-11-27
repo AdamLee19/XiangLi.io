@@ -23,6 +23,12 @@
     opacity: 0.4;
     
 }
+
+.right-img-nohover{
+    float: right;
+    height: 230px;
+    width: 350px;
+}
 .span-right{
     margin-right: 400px;
     display:block;
